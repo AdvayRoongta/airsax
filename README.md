@@ -21,3 +21,4 @@ OpenCV, Python, Mediapipe, and the tenor sax my school gave me
 
  
 NOTE: The current python file is optimized for streamlit. I did this because of the Visioneer rules and is not my actual project, the project is in the real.py file.
+View me running the project locally here: https://www.youtube.com/watch?v=hacINoEem5s
