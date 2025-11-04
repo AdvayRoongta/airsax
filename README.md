@@ -1,7 +1,7 @@
-# 🎷 Visioneer: The Invisible Saxophone
+# 🎷 Airsax: The Invisible Saxophone
 
 **Play the saxophone — without the saxophone!**  
-Visioneer (also known as **AirSax**) lets you perform realistic saxophone fingerings in the air, and it plays back real tenor sax notes that you recorded yourself. Built entirely in Python, this computer vision project turns your hands into an instrument.
+Airsax lets you perform realistic saxophone fingerings in the air, and it plays back real tenor sax notes that you recorded yourself. Built entirely in Python, this computer vision project turns your hands into an instrument.
 
 🎥 **Demo:** [Watch on YouTube](https://www.youtube.com/watch?v=hacINoEem5s)
 
@@ -25,7 +25,7 @@ Visioneer (also known as **AirSax**) lets you perform realistic saxophone finger
 3. **Note Playback:** The corresponding recorded saxophone note plays instantly.  
 4. **Octave Control:** Your left thumb toggles the octave — just like the real thing.
 
-In short, Visioneer makes it possible to play a virtual saxophone using only your hands and a webcam.
+In short, this makes it possible to play a virtual saxophone using only your hands and a webcam.
 
 ---
 
