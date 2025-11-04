@@ -1,24 +1,45 @@
-# AirSax
-Visioneer project: Hold down saxophone fingerings and tenor saxophone notes play (that I recorded)
-🎷
-Its basically a invisible saxophone that you, can play
+# 🎷 Visioneer: The Invisible Saxophone
 
-Hold down the saxophone fingerings and the corresponding note plays. 
+**Play the saxophone — without the saxophone!**  
+Visioneer (also known as **AirSax**) lets you perform realistic saxophone fingerings in the air, and it plays back real tenor sax notes that you recorded yourself. Built entirely in Python, this computer vision project turns your hands into an instrument.
 
-You can also use your left hand thumb for the octave key, to jump up and octave
+🎥 **Demo:** [Watch on YouTube](https://www.youtube.com/watch?v=hacINoEem5s)
 
-I made all the fingerings realistic, so the finger you would use to play "b" on a real saxophone is the same finger you use on the AirSax!
+---
 
+## 🌟 Features
 
-Supports 16 unique notes, all the way from low D to high C! Some sharps and flats (f#, g-flat) are included.
-I built it entirely in python too
+- 🎵 **Realistic Saxophone Fingerings** – Hold down the same keys you'd use on a real tenor saxophone.  
+- 🖐️ **Octave Key Support** – Use your left-hand thumb as an octave key to jump up an octave.  
+- 🎶 **16 Unique Notes** – From low D to high C, with some sharps and flats (like F# and Gb).  
+- 🧠 **Fully Hand-Tracked** – Powered by OpenCV and Mediapipe for accurate hand detection.  
+- 🐍 **Built 100% in Python** – No external hardware required.  
+- 🎷 **Authentic Sound** – All tenor saxophone notes were recorded by the creator.
 
-# History
-I was originally going to make a face anyonyomizer 😀, however, since this was my first CV project I didnt realize how simple that would be. I randomly had the idea to make a saxophone while talking to @karthik
+---
 
-# Built with:
-OpenCV, Python, Mediapipe, and the tenor sax my school gave me
+## 🧩 How It Works
 
- 
-NOTE: The current python file is optimized for streamlit. I did this because of the Visioneer rules and is not my actual project, the project is in the real.py file.
-View me running the project locally here: https://www.youtube.com/watch?v=hacINoEem5s
+1. **Hand Tracking:** Mediapipe detects your hands in real time.  
+2. **Finger Mapping:** Your fingers’ positions are matched to saxophone key patterns.  
+3. **Note Playback:** The corresponding recorded saxophone note plays instantly.  
+4. **Octave Control:** Your left thumb toggles the octave — just like the real thing.
+
+In short, Visioneer makes it possible to play a virtual saxophone using only your hands and a webcam.
+
+---
+
+## ⚙️ Installation
+
+Follow these steps to run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/<your-username>/Visioneer.git
+cd Visioneer
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the project
+python main.py
