@@ -1,6 +1,6 @@
 # Airsax
 
-A computer vision project that lets you play tenor saxophone fingerings in the air using just your hands and a webcam. The notes are real — I recorded them myself on a tenor sax and mapped them to hand positions detected by Mediapipe.
+A computer vision project that lets you play tenor saxophone fingerings in the air using just your hands and a webcam. The notes are real, I recorded them myself on my tenor sax and mapped them to hand positions detected by Mediapipe.
 
 Demo: [YouTube](https://www.youtube.com/watch?v=hacINoEem5s)
 
