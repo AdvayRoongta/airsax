@@ -1,45 +1,39 @@
-# 🎷 Airsax: The Invisible Saxophone
+# Airsax
 
-**Play the saxophone — without the saxophone!**  
-Airsax lets you perform realistic saxophone fingerings in the air, and it plays back real tenor sax notes that you recorded yourself. Built entirely in Python, this computer vision project turns your hands into an instrument.
+A computer vision project that lets you play tenor saxophone fingerings in the air using just your hands and a webcam. The notes are real — I recorded them myself on a tenor sax and mapped them to hand positions detected by Mediapipe.
 
-🎥 **Demo:** [Watch on YouTube](https://www.youtube.com/watch?v=hacINoEem5s)
-
----
-
-## 🌟 Features
-
-- 🎵 **Realistic Saxophone Fingerings** – Hold down the same keys you'd use on a real tenor saxophone.  
-- 🖐️ **Octave Key Support** – Use your left-hand thumb as an octave key to jump up an octave.  
-- 🎶 **16 Unique Notes** – From low D to high C, with some sharps and flats (like F# and Gb).  
-- 🧠 **Fully Hand-Tracked** – Powered by OpenCV and Mediapipe for accurate hand detection.  
-- 🐍 **Built 100% in Python** – No external hardware required.  
-- 🎷 **Authentic Sound** – All tenor saxophone notes were recorded by the creator.
+Demo: [YouTube](https://www.youtube.com/watch?v=hacINoEem5s)
 
 ---
 
-## 🧩 How It Works
+## Features
 
-1. **Hand Tracking:** Mediapipe detects your hands in real time.  
-2. **Finger Mapping:** Your fingers’ positions are matched to saxophone key patterns.  
-3. **Note Playback:** The corresponding recorded saxophone note plays instantly.  
-4. **Octave Control:** Your left thumb toggles the octave — just like the real thing.
-
-In short, this makes it possible to play a virtual saxophone using only your hands and a webcam.
+- Covers 16 notes from low D to high C, including F# and Gb
+- Left-hand thumb acts as the octave key, same as on a real saxophone
+- Fingering patterns match actual tenor sax fingerings, so it's learnable if you already play
+- Built entirely in Python using OpenCV and Mediapipe — no hardware needed
 
 ---
 
-## ⚙️ Installation
+## How It Works
 
-Follow these steps to run the project locally:
+Mediapipe tracks your hands in real time through a webcam feed. Each frame, your finger positions are compared against a lookup of standard tenor saxophone fingerings. When a match is found, the corresponding audio sample plays back. The left thumb is tracked separately as an octave key — raise it and the same fingering jumps up an octave, just like on the physical instrument.
+
+---
+
+## Installation
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/AdvayRoongta/airsax
 cd Visioneer
-
-# 2. Install dependencies
 pip install -r requirements.txt
-
-# 3. Run the project
 python main.py
+```
+
+Python 3.8+ recommended. A working webcam and audio output are required.
+
+---
+
+## Notes
+
+The audio samples are dry recordings with no processing, which keeps latency low. If you already play saxophone, the fingerings will feel familiar. If you don't, there are plenty of fingering charts online for tenor sax that apply directly here.
